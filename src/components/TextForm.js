@@ -28,7 +28,7 @@ export default function TextForm(props) {
         <textarea className="form-control" value={text} id="myBox" rows='8' onChange={handleOnChange}></textarea>
     </div>
     <button className="btn btn-primary" onClick={handleUpClick}>Convert To UpperCase</button>
-    <button className="btn btn-primary" onClick={handleLoClick}>Convert To UpperCase</button>
+    <button className="btn btn-primary" onClick={handleLoClick}>Convert To LowerCase</button>
     <div >
       <h1>Your Summary</h1>
       <p>{text.split(' ').length} word and {text.length} carecters</p>
